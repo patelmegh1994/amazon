@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="Suite">
+
+ 
+  <listeners>
+		<listener class-name="com.amazon.qa.ExtentReportListener.ExtentReporterNG" />
+	</listeners>
+  
+  
+  <test name="Amazon Test">
+    <classes>
+      <class name="com.amazon.qa.testcases.HomePageTest"/>
+    
+      <class name="com.amazon.qa.testcases.ProductPageTest"/>
+      
+        <class name="com.amazon.qa.testcases.SignInPageTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
